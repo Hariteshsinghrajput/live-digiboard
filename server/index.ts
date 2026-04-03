@@ -1,6 +1,6 @@
-import { createServer } from "http";
+/// <reference path="../common/types/global.d.ts" />
 
-import {} from "@/common/types/global";
+import { createServer } from "http";
 
 import express from "express";
 import next, { NextApiHandler } from "next";
